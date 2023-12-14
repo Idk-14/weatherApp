@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body
+{
+    background-color: #222;
+
+}
+
+.search button
+{
+    border: 0;
+    outline: 0;
+    border: 50%;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.search img
+{
+    width: 30%;
+    
+}
+
+.card
+{
+    width: 90%;
+    max-width: 500px;
+    margin: 300px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+    background: rgb(37,36,60);
+    background: linear-gradient(90deg, rgba(37,36,60,1) 2%, rgba(132,0,255,1) 100%);
+    border-radius: 50px;
+}
+
+.search
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input
+{
+    border: 0;
+    outline: 0;
+    border-radius: 18px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
